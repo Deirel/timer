@@ -20,7 +20,7 @@ export default defineConfig({
         description: 'A simple timer application',
         theme_color: '#ffffff',
         background_color: '#ffffff',
-        display: 'standalone',
+        display: 'fullscreen',
         start_url: '/',
         icons: [
           {

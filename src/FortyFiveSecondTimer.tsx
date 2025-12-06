@@ -172,7 +172,7 @@ const FortyFiveSecondTimer: React.FC = () => {
   const progress = (1 - secondsLeft / duration) * 100;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900 text-slate-50 p-4">
+    <div className="h-full min-h-screen flex items-center justify-center bg-slate-900 text-slate-50 p-4" style={{ minHeight: '100dvh' }}>
       <div className="w-full max-w-md p-6 rounded-2xl bg-slate-800 shadow-xl border border-slate-700">
         <h1 className="text-2xl font-semibold mb-4 text-center">Таймер интервалов</h1>
         <p className="text-sm text-slate-300 mb-6 text-center">
